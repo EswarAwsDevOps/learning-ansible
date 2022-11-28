@@ -1,8 +1,8 @@
 - name: demo on variable
   hosts: localhost
   vars:
-  eswar: Devops
+  print: Devops
   tasks:
     - name: print Variable
       ansible.builtin.debug:
-          msg:  = aws {{eswar}
+          msg:  = aws {{print}}
