@@ -1,7 +1,7 @@
 - name: demo on variable
   hosts: localhost
-  var: Devops
+  vars: Devops
   tasks:
     - name: print Variable
       ansible.builtin.debug:
-          msg:  = aws {{var}}
+          msg:  = aws {{vars}}
