@@ -1,8 +1,8 @@
-- name: demo on variable
+- name: demo  variable
   hosts: localhost
-  vars:
-    print: Devops
+  vars_files:
+    - demo.yml
   tasks:
-    - name: print Variable
+    - name: print url
       ansible.builtin.debug:
-          msg:  = aws {{print}}
+          msg:  = url {{url}}

@@ -1,6 +1,1 @@
-- name: just a demo play
-  hosts: all
-  tasks:
-    - name: print Eswar
-      ansible.builtin.debug:
-        #msg: Eswar
+- url: google.com
