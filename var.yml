@@ -1,8 +1,8 @@
 - name: demo on variable
   hosts: localhost
   vars:
-    url: google.com
+    print : Devops
   tasks:
     - name: print Variable
       ansible.builtin.debug:
-          msg:  = {{url}}
+          msg:  = aws {{print}}
