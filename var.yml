@@ -3,4 +3,4 @@
   tasks:
     - name: print Variable
         ansible.builtin.debug:
-          msg: loops
+          msg: variables
