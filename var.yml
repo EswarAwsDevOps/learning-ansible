@@ -1,6 +1,6 @@
-- name: demo on vars
-  hosts: localhost
+- name: demo on variable
+  hosts: local
   tasks:
-    - name: print ansible
-      ansible.builtin.debug:
-        msg: ansible
+    - name: print Variable
+        ansible.builtin.debug:
+          msg: loops
