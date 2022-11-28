@@ -1,5 +1,5 @@
 - name: demo on vars
-  hosts: local
+  hosts: localhost
   tasks:
     - name: print ansible
       ansible.builtin.debug:
